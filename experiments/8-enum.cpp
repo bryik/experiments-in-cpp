@@ -5,7 +5,6 @@
 #include <iostream>
 using namespace std;
 
-
 // Old-style, "unscoped" enumeration
 enum color {
   // Each enumerator is assigned an int "label"
@@ -14,9 +13,7 @@ enum color {
   blue    // == 2
 };
 
-
 int main() {
-  
   color favouriteColor = blue;
 
   // Marginally cleaner if statements and switches.
@@ -26,7 +23,7 @@ int main() {
   }
 
   // Prevents mistakes? Strings will not prevent invalid choices.
-  //favouriteColor = crimson;
+  // favouriteColor = crimson;
 
   return 0;
 }

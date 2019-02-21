@@ -4,7 +4,7 @@ This repo contains little examples demonstrating certain concepts from C++. They
 
 ## Compiling
 
-All of the examples in `./experiments` have been tested with GCC. 
+All of the examples in `./experiments` have been tested with GCC.
 
 To compile, run, and remove the compiled files:
 
@@ -29,4 +29,8 @@ With this, running a single file can be done with:
 c++ hello
 ```
 
+## Style
 
+This repo _tries_ to follow Google's [C++ style guide](https://google.github.io/styleguide/cppguide.html). VS Code can be configured to automatically format code in this style ([instructions](https://stackoverflow.com/a/46064866/6591491)).
+
+Each experiment is numbered, but this indicates more about when the experiment was added rather than anything about difficultly.

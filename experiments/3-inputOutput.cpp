@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-  
   // Read user input up to a space.
   string msg;
   // right-shift operator converts and assigns inpu from input stream

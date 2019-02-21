@@ -8,7 +8,6 @@
 using namespace std;
 
 int main() {
-  
   // Create a vector of size 10.
   vector<int> nums(10);
   // By default, elements are initialized to "0".
@@ -17,7 +16,7 @@ int main() {
   // Can specify default value.
   vector<int> ones(10, 1);
   cout << ones[2] << endl;
-  
+
   // Create a copy.
   vector<int> copyOfNums = nums;
   cout << copyOfNums[2] << endl;
@@ -39,6 +38,6 @@ int main() {
   } else {
     cout << "nums != ones" << endl;
   }
-  
+
   return 0;
 }

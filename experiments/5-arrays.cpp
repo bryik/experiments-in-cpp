@@ -5,7 +5,6 @@
 using namespace std;
 
 int main() {
-  
   // Create an array of three integers.
   int nums[3];
 
