@@ -25,5 +25,9 @@ int main() {
   // int* iPointer = &i;
   // delete iPointer;
 
+  // Arrays have a special keyword for deletion.
+  int* numbers = new int[3]{1, 2, 3};
+  delete[] numbers;
+
   return 0;
 }
