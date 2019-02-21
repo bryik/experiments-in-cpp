@@ -15,7 +15,6 @@ int main() {
   // A pointer to an array works very similar to an array itself.
   int* numPointer = nums;
   cout << "Also the second value of nums: " << numPointer[2] << endl;
-
   cout << endl;
 
   // Can iterate over an array with a for loop
