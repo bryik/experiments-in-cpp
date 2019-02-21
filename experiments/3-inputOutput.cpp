@@ -6,7 +6,7 @@ using namespace std;
 int main() {
   // Read user input up to a space.
   string msg;
-  // right-shift operator converts and assigns inpu from input stream
+  // right-shift operator converts and assigns input from input stream
   cin >> msg;
 
   // Echo it back out with the left-shift operator.
