@@ -12,7 +12,7 @@ To compile, run, and remove the compiled files:
 2. Execute:
 
 ```bash
-g++ -std=c++17 hello.cpp && ./a.out && rm ./a.out
+g++ -std=c++17 1-hello.cpp && ./a.out && rm ./a.out
 ```
 
 You can wrap this in a handy bash function:
